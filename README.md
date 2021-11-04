@@ -6,7 +6,7 @@ This project was generated using `jspsych_template`. It leverages `jspsych-build
 
 The package manager used is yarn ([for a quick introduction, see here][1]). Make sure you have it installed in order to use this template to develop jsPsych experiments.
 
-As with every modern Javascript project, after cloning the source code you need to install the project dependencies with `yarn install`. This step is only required at the beginning and when the dependencies change.
+As with every modern JavaScript project, after cloning the source code you need to install the project dependencies with `yarn install`. This step is only required at the beginning and when the dependencies change.
 
 ## Available commands
 
