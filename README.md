@@ -101,6 +101,35 @@ To learn how to configure the trials created with a certain plugin, refer to the
 [plugin overview page][10] and the [specific plugin's documentation][9] on the
 jsPsych website.
 
+### How to customize the look & feel
+
+To change the browser tab title, change the content of the title pragma at the
+top of the `src/experiment.js` file.
+
+```javascript
+/**
+ * @title Add the desired browser tab title here
+ * ...
+ */
+```
+
+To customize the visual appearance of the experiment, refer to the [jsPsych
+documentation][11]. I would recommend to use a CSS stylesheet, but beware:
+adding a stylesheet to your experiment is not done in the same way as the
+jsPsych documentation states. Instead, you can simply add a line like this one
+to your experiment file or every other JavaScript file:
+
+```javascript
+import '../styles/main.scss';
+```
+
+As you can see, this line is already present in the `src/experiment.js` file,
+and the `styles/main.scss` file also already exists. You might have noticed that
+this stylesheet is a `.scss` file instead of a normal `.css` file. This is
+because this template (thanks to `jspsych-builder`) supports the
+[SASS language][12] for styling. SASS is a superset of CSS and you can therefore
+just write normal CSS if you do not need the additional features SASS provides.
+
 [1]: https://yarnpkg.com/getting-started
 [2]: https://github.com/bjoluc/jspsych-builder
 [3]: https://www.jspsych.org/7.0/
@@ -111,3 +140,5 @@ jsPsych website.
 [8]: https://www.jspsych.org/7.0/plugins/preload/
 [9]: https://www.jspsych.org/7.0/plugins/list-of-plugins/
 [10]: https://www.jspsych.org/7.0/overview/plugins/
+[11]: https://www.jspsych.org/7.0/overview/style/
+[12]: https://sass-lang.com/
