@@ -101,7 +101,7 @@ jsPsych website.
 
 ### How to customize the look & feel
 
-To change the browser tab title, change the content of the title pragma at the
+To change the browser tab title, change the content of the _title_ pragma at the
 top of the `src/experiment.js` file.
 
 ```javascript

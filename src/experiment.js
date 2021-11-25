@@ -1,7 +1,7 @@
 /**
  * @title Template Experiment
  * @description A template experiment to build upon.
- * @version 0.1.0
+ * @version 1.0.0
  *
  * The following lines specify which media directories will be packaged and
  * preloaded by jsPsych. Modify them to arbitrary paths (or comma-separated
