@@ -1,11 +1,10 @@
 {
-  "name": "template_experiment",
-  "version": "0.1.0",
+  "name": "jspsych-experiment-template",
+  "version": "1.0.0",
   "license": "MIT",
   "author": "Robin Bürkli <robuba.jr@gmx.ch>",
   "description": "A template experiment to build upon.",
   "scripts": {
-    "jspsych": "jspsych -e experiment",
     "dev": "jspsych run",
     "build": "jspsych build"
   },
