@@ -1,25 +1,13 @@
 # jspsych-experiment-template
 
-<<<<<<< HEAD
 This project was generated using `jspsych-experiment-template`. It leverages
 `jspsych-builder` (and therefore Babel, Webpack and SASS) to ease jsPsych
 development and automate the build process.
-=======
-This project was generated using `jspsych_template`. It leverages `jspsych-builder` (and therefore Babel, Webpack and SASS) to ease jsPsych development and automate the build process.
->>>>>>> f939125d4f512fa151fb2eb7ab3b2939a73423f1
 
-## jsPsych
-
-<<<<<<< HEAD
 jsPsych is a JavaScript framework for creating browser based experiments. If you
 don't know it, you should [learn the basics][3] first.
 
 ## How to use this template
-=======
-The package manager used is yarn ([for a quick introduction, see here][1]). Make sure you have it installed in order to use this template to develop jsPsych experiments.
-
-As with every modern JavaScript project, after cloning the source code you need to install the project dependencies with `yarn install`. This step is only required at the beginning and when the dependencies change.
->>>>>>> f939125d4f512fa151fb2eb7ab3b2939a73423f1
 
 The package manager used is yarn ([for a quick introduction, see here][1]). Make
 sure you have it installed in order to use this template to develop jsPsych
