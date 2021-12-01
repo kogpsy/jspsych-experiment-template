@@ -1,8 +1,8 @@
 # jspsych-experiment-template
 
 This project was generated using `jspsych-experiment-template`. It leverages
-`jspsych-builder` (and therefore Babel, Webpack and SASS) to ease jsPsych
-development and automate the build process.
+`jspsych-builder` (and therefore Babel, Webpack, SASS and even TypeScript) to
+ease jsPsych development and automate the build process.
 
 jsPsych is a JavaScript framework for creating browser based experiments. If you
 don't know it, you should [learn the basics][3] first.
@@ -128,6 +128,13 @@ because this template (thanks to `jspsych-builder`) supports the
 [SASS language][12] for styling. SASS is a superset of CSS and you can therefore
 just write normal CSS if you do not need the additional features SASS provides.
 
+### On TypeScript
+
+TypeScript is a superset of JavaScript providing a type system, which can make
+your code more robust. To use it, just rename your `.js` fies to `.ts` files,
+write your code in TypeScript, and `jspsych-builder` takes care of the rest. To
+learn TypeScript, refer to [their documentation][13].
+
 [1]: https://yarnpkg.com/getting-started
 [2]: https://github.com/bjoluc/jspsych-builder
 [3]: https://www.jspsych.org/7.0/
@@ -140,3 +147,4 @@ just write normal CSS if you do not need the additional features SASS provides.
 [10]: https://www.jspsych.org/7.0/overview/plugins/
 [11]: https://www.jspsych.org/7.0/overview/style/
 [12]: https://sass-lang.com/
+[13]: https://www.typescriptlang.org/
