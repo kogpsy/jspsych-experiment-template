@@ -79,6 +79,10 @@ export async function run({ assetPaths, input = {}, environment }) {
   // If the experiment is run by JATOS, pass the resulting data to the server
   // in CSV form.
   if (environment === 'jatos') {
+    // Some editors may throw errors here if TypeScript is used, since the jatos
+    // object is not created here but injected at runtime. This is why for the
+    // following line, TypeScript errors are ignored.
+    // @ts-ignore
     jatos.submitResultData(resultData.csv(), jatos.startNextComponent);
   }
   // In every other environment, print the data to the browser console in JSON
