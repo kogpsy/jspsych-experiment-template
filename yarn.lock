@@ -4525,10 +4525,10 @@ json5@^2.1.2:
   dependencies:
     minimist "^1.2.5"
 
-jspsych-builder@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/jspsych-builder/-/jspsych-builder-4.1.0.tgz#59c5f9ad6452e376d6d0d1f29576d416d56c5428"
-  integrity sha512-Ffii98oD6g0bRhvhIc4iuIBpG2CARScMXmp6NIWwcqTcCN45R3sMSP/5pmC7dx4PuX2emgIzwroIvZ+Bg7s2FQ==
+jspsych-builder@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/jspsych-builder/-/jspsych-builder-4.1.1.tgz#bb666369127ca3b088284743f1f481de9021c61f"
+  integrity sha512-4Ad08zsIxaqhArEfE73MiaGY5wpCh8ZXsh3nliknXMu2eMnrc36SwnMbtNQXvqD6GKyy1ZTBKjjt6Wy9kRDpKA==
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/plugin-proposal-class-properties" "^7.16.0"
@@ -4569,6 +4569,7 @@ jspsych-builder@^4.1.0:
     resolve-cwd "^3.0.0"
     sass "^1.43.5"
     sass-loader "^12.3.0"
+    slash "^4.0.0"
     slugify "^1.6.3"
     update-notifier "^5.1.0"
     uuid "^8.3.2"
@@ -4576,10 +4577,10 @@ jspsych-builder@^4.1.0:
     webpack-dev-server "^4.6.0"
     yargs "^17.2.1"
 
-jspsych@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/jspsych/-/jspsych-7.1.0.tgz#a796a0222100b7dd031b9498ec8063b80ee5abff"
-  integrity sha512-1vopJQChNbZstysPzSyy5NC9h6LetXXVWt6uL2eq3SoSs5IvCfud3Oco0AHlU5k8H5jadOVuGKwijHxKgXdy9g==
+jspsych@^7.1.2:
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/jspsych/-/jspsych-7.1.2.tgz#c56465756ac23056534aa013ef60c0b4fc6d73af"
+  integrity sha512-uV7oBqpUoEUbm75lM3F7M1mYgRhFWrZmn+qDXyyE8eRk5qjj4KV6fgwQ8uS3oBDwi7st8O0h2vTfEdtSn2DcUQ==
   dependencies:
     auto-bind "^4.0.0"
     random-words "^1.1.1"
@@ -5827,10 +5828,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.npmjs.org/prepend-http/-/prepend-http-2.0.0.tgz"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
-  integrity sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==
+prettier@2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
+  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
 
 pretty-hrtime@^1.0.0:
   version "1.0.3"
@@ -6542,6 +6543,11 @@ slash@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-3.0.0.tgz"
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
+
+slash@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/slash/-/slash-4.0.0.tgz#2422372176c4c6c5addb5e2ada885af984b396a7"
+  integrity sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==
 
 slice-ansi@0.0.4:
   version "0.0.4"
