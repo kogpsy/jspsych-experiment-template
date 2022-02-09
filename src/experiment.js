@@ -21,7 +21,7 @@ export function licenseNotice() {
   ******************** */
 }
 
-// You can import stylesheets (.scss or .css).
+// Import stylesheets (.scss or .css).
 import '../styles/main.scss';
 
 import { initJsPsych } from 'jspsych';
